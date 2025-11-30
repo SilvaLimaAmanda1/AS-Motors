@@ -1,0 +1,62 @@
+dourado
+#daa520
+rgba(218, 165, 32, 1)
+
+preto
+#000000
+rgba(0, 0, 0, 1)
+
+
+
+verde militar
+#4B5320
+rgba(75, 83, 32, 1)
+
+roxo
+#6b329a
+rgba(107, 50, 154, 1)
+
+AutoSom
+AutoSound
+------------------------------------------------------------
+
+ASX-1000
+VR 1000cc
+R$140k - $28k
+
+11,7 kgf.m a 13.400rpm
+
+17 litros[reserva 3L]
+
+10 a 17km/l
+
+Suspenção D/T 120mm / 117mm
+
+Largura 770mm
+
+Altura 1300mm
+
+Peso 200kg
+
+------------------------------------------------------------
+
+AX-600
+PD 600cc
+R$50k - $10k
+
+90 a 10500 Potência Máxima
+
+7,20 kgf.m a 8000rpm
+
+13 litros[reserva 2L] Tanque
+
+15 a 22km/l
+
+Suspenção D/T 180mm 
+
+Largura 860mm
+
+Altura 1230mm
+
+Peso 183kg
+

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+	<title>AS-Motors</title>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img src="assets/logo.png" alt="Logo AS.">
+		</div>
+		<nav class="navigation">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#about">About Us</a></li>
+				<li><a href="#service">Services</a></li>
+				<li><a href="#products">Product's</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+
+			<div class="toggle-buttons">
+				<button id="cart-btn" class="cart-btn-relative">
+					<i class='bx bxs-cart' style="vertical-align: middle;"></i>
+					<span id="cart-count" class="cart-count">0</span>
+				</button>
+				<button id="menu-btn" class="menu-btn" style="background: none; border:none; color: inherit;">
+					<i class='bx bx-menu'></i>
+				</button>
+			</div>
+		</nav>
+		<div class="btn-cta">
+			<a href="#">Speak to an expert</a>
+		</div>
+	</header>
+
+	<div id="nav-links-mobile" class="nav-links-mobile">
+    <i class='bx bx-x close-menu-btn' id="close-menu-btn"></i>
+    <ul>
+        <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About Us</a></li>
+        <li><a class="nav-link" href="#service">Services</a></li>
+        <li><a class="nav-link" href="#products">Product's</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+    </ul>
+
+    <a href="#" class="btn-cta-mobile">Speak to an expert</a>
+</div>
+
+
+	<div id="cart-sidebar" class="cart-sidebar">
+		<div class="cart-header">
+			<h3><i class='bx bxs-shopping-bag' style="vertical-align: middle;"></i> Seu Carrinho</h3>
+			<i class='bx bx-x close-cart-btn' id="close-cart-btn"></i>
+		</div>
+		<div id="cart-items-container">
+			<p id="empty-cart-message">Seu carrinho está vazio.</p>
+		</div>
+		<div class="cart-footer">
+			<p>Total: <span id="cart-total">R$ 0,00</span></p>
+			<button class="checkout-btn">Finalizar Compra</button>
+		</div>
+	</div>
+
+	<div class="overlay" id="overlay"></div>
+
+<main>
+	<section class="hero" id="hero">
+		<div class="hero-img">
+			<img src="assets/ASX-1000.png" alt="Sports motorcycles ASX-1000">
+		</div>
+		<div class="hero-text">
+			<h1>Sports motorcycles.</h1>
+			<h2>ASX-1000</h2>
+			<span>Icon among supersports</span>
+			<p>The ASX-1000 is a powerful sports motorcycle equipped with a VR 1000cc engine. It offers 11.7 kgf.m of torque at 13,400rpm, a fuel tank capacity of 20 liters (including a 3-liter reserve), and a fuel consumption of 10 to 17km/l.</p>
+			<p class="price">From $78k</p>
+			<a href="#" class="hero-btn">More information</a>
+		</div>
+	</section>
+
+	<section class="hero hero-reverse">
+		<div class="hero-img">
+			<img src="assets/AX-600.png" alt="Sports motorcycles AX-600">
+		</div>
+		<div class="hero-text">
+			<h1>Comfort and security</h1>
+			<h2>AX-600</h2>
+			<span>Versatile and Reliable</span>
+			<p>The AX-600 is a versatile sports motorcycle with a PD 600cc engine. It has a maximum power of 90 to 10500 rpm and 7.20 kgf.m of torque at 8000rpm. The fuel tank capacity is 16 liters, and the fuel consumption is between 15 to 22km/l.</p>
+			<p class="price">From $30,500k</p>
+			<a href="#" class="hero-btn">More information</a>
+		</div>
+	</section>
+	<section class="about-us" id="about">
+    <div class="about-text">
+        <span class="sub-heading">Our History</span>
+        <h2>Innovation, Passion, and Speed.</h2>
+        <p>Since our founding in 2005, AS Motor's has been a beacon of innovation...</p>
+        <p>Our mission is simple: to offer machines that exceed expectations...</p>
+
+        <div class="about-stats">
+            <div class="stat-item">
+                <h3><i class='bx bx-tachometer'></i> 100+</h3>
+                <p>Models Sold</p>
+            </div>
+            <div class="stat-item">
+                <h3><i class='bx bx-wrench'></i> 20 Anos</h3>
+                <p>Of Excellence</p>
+            </div>
+            <div class="stat-item">
+                <h3><i class='bx bx-world'></i> 5 Países</h3>
+                <p>Global Distribution</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-img">
+        <img src="assets/Team-AS-Motors.png" alt="Equipe AS Motor's em frente à fábrica.">
+    </div>
+</section>
+<section class="services" id="service">
+		<div class="main-title-container">
+			<span class="sub-heading">O que oferecemos</span>
+			<h2>Compromisso com sua Performance.</h2>
+		</div>
+		
+		<div class="services-grid">
+			<div class="service-item">
+				<i class='bx bxs-cog service-icon'></i>
+				<h3>Manutenção Personalizada</h3>
+				<p>Serviços de manutenção exclusivos, adaptados às especificações da sua AS Motor's, garantindo a longevidade e o desempenho máximo do motor.</p>
+			</div>
+			
+			<div class="service-item">
+				<i class='bx bxs-zap service-icon'></i>
+				<h3>Otimização de Performance</h3>
+				<p>Ajustes finos e upgrades de software para levar a potência da sua motocicleta ao limite, com segurança e precisão de fábrica.</p>
+			</div>
+			
+			<div class="service-item">
+				<i class='bx bxs-plane-alt service-icon'></i>
+				<h3>Entrega Global Segura</h3>
+				<p>Garantimos que sua máquina dos sonhos chegue até você, não importa onde esteja, com logística especializada e seguro total.</p>
+			</div>
+			
+			<div class="service-item">
+				<i class='bx bxs-wallet service-icon'></i>
+				<h3>Consultoria Financeira</h3>
+				<p>Opções de financiamento e leasing exclusivas, com consultores dedicados a encontrar a melhor solução para você adquirir sua moto.</p>
+			</div>
+		</div>
+	</section>
+<section class="products" id="products">
+    <div class="main-title-container">
+        <span class="sub-heading">Explore our lineup</span>
+        <h2>The Machines of AS Motor's.</h2>
+    </div>
+
+    <div class="products-grid">
+
+        <!-- ATZ-250 -->
+        <div class="product-item">
+            <img src="img/ATZ-250.png" alt="ATZ-250">
+            <h3>ATZ-250: Gateway to the World of Supersport</h3>
+            <p class="product-desc">The ATZ-250 is the perfect entry point into the world of sport bikes. Its 250cc single-cylinder engine is surprisingly agile and fuel-efficient, with a top speed of 170 km/h. The 12-liter tank makes it ideal for daily use, and its compact, aerodynamic design in vibrant lime green with black details ensures it stands out anywhere.</p>
+            <p class="product-price">$14,900</p>
+            <button class="add-to-cart-btn" 
+                    data-id="ATZ250" 
+                    data-name="ATZ-250" 
+                    data-price="14900">
+                Add to Cart <i class='bx bx-cart-add'></i>
+            </button>
+        </div>
+
+        <!-- GTX-500 -->
+        <div class="product-item">
+            <img src="img/GTX-500.png" alt="GTX-500">
+            <h3>GTX-500: Urban Agility and Sportiness</h3>
+            <p class="product-desc">The GTX-500 is designed for riders who seek agility without sacrificing excitement. Its lightweight and responsive 500cc engine offers excellent cornering performance and a top speed of 190 km/h, perfect for city riding and winding roads. The 14-liter tank ensures solid autonomy, while its electric blue paint with white graphics reflects its energetic personality.</p>
+            <p class="product-price">$15,000</p>
+            <button class="add-to-cart-btn" 
+                    data-id="GTX500" 
+                    data-name="GTX-500" 
+                    data-price="15000">
+                Add to Cart <i class='bx bx-cart-add'></i>
+            </button>
+        </div>
+
+        <!-- VTX-R -->
+        <div class="product-item">
+            <img src="img/Matte-Black-VTX-R.png" alt="VTX-R">
+            <h3>VTX-R: Aggressive Lines with Refined Aesthetics</h3>
+            <p class="product-desc">The VTX-R combines aggressive lines with a refined aesthetic. Equipped with an 850cc V-Twin engine, it delivers smooth yet powerful acceleration, easily reaching 240 km/h. Its 16-liter fuel tank allows for long journeys, making it ideal both on the track and the open road. The matte black finish with bronze accents highlights its sophisticated yet fast nature.</p>
+            <p class="product-price">$25,500</p>
+            <button class="add-to-cart-btn" 
+                    data-id="VTXR" 
+                    data-name="VTX-R" 
+                    data-price="25500">
+                Add to Cart <i class='bx bx-cart-add'></i>
+            </button>
+        </div>
+
+        <!-- AX-600 -->
+        <div class="product-item">
+            <img src="img/AX-600.jpg" alt="AX-600">
+            <h3>AX-600: Elegance Forged in Speed</h3>
+            <p class="product-desc">The Black Gold 600 fuses power and class into a single mechanical creature. Its 600cc engine delivers sharp bursts of acceleration and enough speed to take your breath away. The 16-liter tank ensures long rides without hesitation, while its deep black finish with golden accents shines like a jewel under the city lights. It doesn’t need to shout to be noticed — it commands respect with every curve.</p>
+            <p class="product-price">$30,500</p>
+            <button class="add-to-cart-btn" 
+                    data-id="AX600" 
+                    data-name="AX-600" 
+                    data-price="30500">
+                Add to Cart <i class='bx bx-cart-add'></i>
+            </button>
+        </div>
+
+        <!-- ASX-1000 -->
+        <div class="product-item">
+            <img src="img/ASX-1000.jpg" alt="ASX-1000">
+            <h3>ASX-1000: Night Warrior in Two Colors</h3>
+            <p class="product-desc">The Phantom Strike 1000 is the embodiment of modern power. With a 1000cc engine built to tear through the night, it breaks past the 300 km/h barrier as if it were just another step. Military green and deep purple give it a bold, almost untamable look. Its 20-liter tank fuels long, aggressive adventures. This is not just a motorcycle — it’s a presence. A swift shadow leaving trails of light wherever it goes.</p>
+            <p class="product-price">$78,000</p>
+            <button class="add-to-cart-btn" 
+                    data-id="ASX1000" 
+                    data-name="ASX-1000" 
+                    data-price="78000">
+                Add to Cart <i class='bx bx-cart-add'></i>
+            </button>
+        </div>
+
+        <!-- Speed 1400 -->
+        <div class="product-item">
+            <img src="img/Speed 1400.png" alt="Speed 1400">
+            <h3>Speed 1400: Brutal Power and Cutting-Edge Technology</h3>
+            <p class="product-desc">The Speed 1400 is the queen of speed. With a 1400cc inline-four engine, it delivers overwhelming performance, propelling the rider to speeds well beyond 300 km/h with ease. Its 18-liter tank is built to satisfy the thirst for adrenaline, while its dark metallic red body with silver accents leaves no doubt about its purpose: to dominate the track.</p>
+            <p class="product-price">$90,900</p>
+            <button class="add-to-cart-btn" 
+                    data-id="SPD1400" 
+                    data-name="Speed 1400" 
+                    data-price="90900">
+                Add to Cart <i class='bx bx-cart-add'></i>
+            </button>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact-us" id="contact">
+		<div class="main-title-container">
+			<span class="sub-heading">Get in touch</span>
+			<h2>Ready to talk speed?</h2>
+		</div>
+
+		<div class="contact-content-grid">
+			
+			<div class="contact-info">
+				<h3>Reach us directly</h3>
+				<p>Our team is available to answer all your questions about performance, financing, and our latest models.</p>
+
+				<div class="info-item">
+					<i class='bx bxs-map'></i>
+					<p>AS Motor's Headquarters: 123 Race Street, Speedway City, 99010</p>
+				</div>
+				<div class="info-item">
+					<i class='bx bxs-phone'></i>
+					<p>Phone: +1 (555) 123-4567</p>
+				</div>
+				<div class="info-item">
+					<i class='bx bxs-envelope'></i>
+					<p>Email: sales@as-motors.com</p>
+				</div>
+
+				<div class="social-links">
+					<a href="#"><i class='bx bxl-facebook-circle'></i></a>
+					<a href="#"><i class='bx bxl-instagram'></i></a>
+					<a href="#"><i class='bx bxl-youtube'></i></a>
+				</div>
+			</div>
+
+			<div class="contact-form-container">
+				<h3>Send us a message</h3>
+				<form class="contact-form">
+					<div class="input-group">
+						<label for="name">Full Name</label>
+						<input type="text" id="name" name="name" required placeholder="John Doe">
+					</div>
+					<div class="input-group">
+						<label for="email">Email Address</label>
+						<input type="email" id="email" name="email" required placeholder="name@example.com">
+					</div>
+					<div class="input-group">
+						<label for="subject">Subject</label>
+						<input type="text" id="subject" name="subject" placeholder="Inquiry about model AX-600">
+					</div>
+					<div class="input-group">
+						<label for="message">Your Message</label>
+						<textarea id="message" name="message" rows="5" required placeholder="I'd like to know more about..."></textarea>
+					</div>
+					<button type="submit" class="hero-btn">Submit Request</button>
+				</form>
+			</div>
+		</div>
+	</section>
+</main>
+
+	<footer>
+		<p>&copy;2025 Idealizado por AS Motor's e desenvolvido por<a href="#"> Amanda Silva |AS</a></p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
